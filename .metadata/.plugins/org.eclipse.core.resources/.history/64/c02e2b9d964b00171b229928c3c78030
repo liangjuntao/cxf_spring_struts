@@ -1,0 +1,7 @@
+package com.liangjt.auth;
+
+import org.apache.cxf.phase.AbstractPhaseInterceptor;
+
+public class AddHeaderInterceptor extends AbstractPhaseInterceptor<Soap>{
+
+}

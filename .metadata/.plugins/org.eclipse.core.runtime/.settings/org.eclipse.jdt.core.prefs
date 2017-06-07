@@ -1,4 +1,10 @@
 eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=D\:/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=D\:/jdk1.8.0_121/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=D\:/jdk1.8.0_121/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=D\:/eclipse/plugins/org.junit_4.12.0.v201504281640/
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/Administrator/.m2/repository
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
@@ -6,3 +12,4 @@ org.eclipse.jdt.core.compiler.compliance=1.8
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
 org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.cxf=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/aopalliance-1.0.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/asm-3.3.1.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/commons-logging-1.1.1.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/cxf-2.7.18.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/geronimo-servlet_3.0_spec-1.0.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/jetty-http-8.1.15.v20140411.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/jetty-io-8.1.15.v20140411.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/jetty-security-8.1.15.v20140411.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/jetty-server-8.1.15.v20140411.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/jetty-util-8.1.15.v20140411.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/wsdl4j-1.6.3.jar"/>\r\n\t<archive path\="D\:/apache-cxf-2.7.18/lib/xmlschema-core-2.1.0.jar"/>\r\n</userlibrary>\r\n

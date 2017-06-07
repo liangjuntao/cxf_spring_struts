@@ -1,0 +1,8 @@
+package com.liangjt.auth;
+
+import org.apache.cxf.binding.soap.SoapMessage;
+import org.apache.cxf.phase.AbstractPhaseInterceptor;
+
+public class AddHeaderInterceptor extends AbstractPhaseInterceptor<SoapMessage>{
+
+}

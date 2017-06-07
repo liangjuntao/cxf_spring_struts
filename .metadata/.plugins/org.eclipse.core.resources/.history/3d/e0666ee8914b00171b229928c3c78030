@@ -1,0 +1,36 @@
+Outbound Message
+---------------------------
+ID: 7
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHiResponse xmlns:ns2="http://webService.liangjt.com/"><return>zhangsan，您好。现在时间是：Wed Jun 07 00:03:50 CST 2017</return></ns2:sayHiResponse></soap:Body></soap:Envelope>
+--------------------------------------
+Outbound Message
+---------------------------
+ID: 8
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:getAllCatResponse xmlns:ns2="http://webService.liangjt.com/"><return><entries><key>第2只</key><value><color>蓝色2</color><id>2</id><name>机器猫2</name></value></entries><entries><key>第1只</key><value><color>蓝色1</color><id>1</id><name>机器猫1</name></value></entries><entries><key>第4只</key><value><color>蓝色12</color><id>12</id><name>机器猫12</name></value></entries><entries><key>第3只</key><value><color>蓝色3</color><id>3</id><name>机器猫3</name></value></entries><entries><key>第6只</key><value><color>蓝色32</color><id>32</id><name>机器猫32</name></value></entries><entries><key>第5只</key><value><color>蓝色22</color><id>22</id><name>机器猫22</name></value></entries></return></ns2:getAllCatResponse></soap:Body></soap:Envelope>
+--------------------------------------
+Outbound Message
+---------------------------
+ID: 11
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHiResponse xmlns:ns2="http://webService.liangjt.com/"><return>zhangsan，您好。现在时间是：Wed Jun 07 00:04:00 CST 2017</return></ns2:sayHiResponse></soap:Body></soap:Envelope>
+--------------------------------------
+Outbound Message
+---------------------------
+ID: 12
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:getAllCatResponse xmlns:ns2="http://webService.liangjt.com/"><return><entries><key>第2只</key><value><color>蓝色2</color><id>2</id><name>机器猫2</name></value></entries><entries><key>第1只</key><value><color>蓝色1</color><id>1</id><name>机器猫1</name></value></entries><entries><key>第4只</key><value><color>蓝色12</color><id>12</id><name>机器猫12</name></value></entries><entries><key>第3只</key><value><color>蓝色3</color><id>3</id><name>机器猫3</name></value></entries><entries><key>第6只</key><value><color>蓝色32</color><id>32</id><name>机器猫32</name></value></entries><entries><key>第5只</key><value><color>蓝色22</color><id>22</id><name>机器猫22</name></value></entries></return></ns2:getAllCatResponse></soap:Body></soap:Envelope>
+--------------------------------------

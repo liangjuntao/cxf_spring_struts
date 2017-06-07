@@ -1,0 +1,8 @@
+package com.liangjt.interceptor;
+
+import org.apache.cxf.interceptor.Interceptor;
+import org.apache.cxf.message.Message;
+
+public class AuthInInterceptor implements Interceptor<? extends Message> {
+
+}

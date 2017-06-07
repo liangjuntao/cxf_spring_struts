@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=auth_ws_server/D:\/apache-cxf-2.7.18\/lib\/cxf-2.7.18.jar&lt;org.apache.cxf.phase(AbstractPhaseInterceptor.class[AbstractPhaseInterceptor" modifiers="1057" timestamp="1446184358000"/>
+<typeInfo handle="=interceptor_ws_client/D:\/apache-cxf-2.7.18\/lib\/geronimo-servlet_3.0_spec-1.0.jar&lt;javax.servlet(ServletInputStream.class[ServletInputStream" modifiers="1057" timestamp="1439427652000"/>
+<typeInfo handle="=interceptor_ws_server/D:\/apache-cxf-2.7.18\/lib\/neethi-3.0.3.jar&lt;org.apache.neethi.builders(AssertionBuilder.class[AssertionBuilder" modifiers="1537" timestamp="1439427666000"/>
+</typeInfoHistroy>

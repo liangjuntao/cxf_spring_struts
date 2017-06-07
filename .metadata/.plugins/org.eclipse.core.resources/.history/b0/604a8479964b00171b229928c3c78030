@@ -1,0 +1,39 @@
+package com.liangjt.main;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import org.apache.cxf.endpoint.Client;
+import org.apache.cxf.frontend.ClientProxy;
+import org.apache.cxf.interceptor.LoggingInInterceptor;
+import org.apache.cxf.interceptor.LoggingOutInterceptor;
+
+import com.liangjt.webservice.Entry;
+import com.liangjt.webservice.StringCat;
+import com.liangjt.webservice.impl.HelloWorld;
+
+public class ClientMain {
+
+	public static void main(String[] args) throws IOException {
+		HelloWorld factory = new HelloWorld();
+		// hw是远程web service的代理
+		com.liangjt.webservice.HelloWorld hw = factory.getHelloWorldWsPort();
+		Client client = ClientProxy.getClient(hw);
+		// 添加in拦截器,记录日志的拦截器
+		// client.getInInterceptors().add(new LoggingInInterceptor(new
+		// PrintWriter(new FileWriter("in.txt"))));
+		// client.getInInterceptors().add(new LoggingOutInterceptor(new
+		// PrintWriter(new FileWriter("in.txt"))));
+		
+		//添加自定义拦截器
+		
+		System.out.println(hw.sayHi("zhangsan"));
+		
+		StringCat sc = hw.getAllCat();
+		for (Entry en : sc.getEntries()) {
+			System.out.println(en.getKey() + ":" + en.getValue().getName());
+		}
+	}
+
+}

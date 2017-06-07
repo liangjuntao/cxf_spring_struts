@@ -1,0 +1,25 @@
+package com.liangjt.auth;
+
+import org.apache.cxf.binding.soap.SoapMessage;
+import org.apache.cxf.interceptor.Fault;
+import org.apache.cxf.phase.AbstractPhaseInterceptor;
+import org.apache.cxf.phase.Phase;
+
+public class AddHeaderInterceptor extends AbstractPhaseInterceptor<SoapMessage>{
+	private String userId;
+	private String userPass;
+
+	public AddHeaderInterceptor(String userId, String userPass) {
+		this.userId= userId;
+		this.userPass = userPass;
+		super(Phase.POST_INVOKE);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void handleMessage(SoapMessage arg0) throws Fault {
+		
+		
+	}
+
+}

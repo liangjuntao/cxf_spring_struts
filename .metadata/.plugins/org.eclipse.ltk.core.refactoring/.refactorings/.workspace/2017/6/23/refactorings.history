@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ws_webService&apos;" deleteContents="true" description="Delete resource &apos;ws_webService&apos;" element1="/ws_webService" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1496841614072"/>&#x0A;<refactoring comment="Delete resource &apos;auth_client&apos;" deleteContents="true" description="Delete resource &apos;auth_client&apos;" element1="/auth_client" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1496849347417"/>
+</session>

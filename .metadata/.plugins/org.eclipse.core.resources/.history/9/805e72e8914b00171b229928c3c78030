@@ -1,0 +1,106 @@
+Inbound Message
+----------------------------
+ID: 1
+Address: http://127.0.0.1:9999/webservice?wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], content-type=[text/xml], Host=[127.0.0.1:9999], Pragma=[no-cache], User-Agent=[Apache CXF 2.7.18]}
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 2
+Address: http://127.0.0.1:9999/webservice?wsdl=HelloWorld.wsdl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], content-type=[text/xml], Host=[127.0.0.1:9999], Pragma=[no-cache], User-Agent=[Apache CXF 2.7.18]}
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 3
+Address: http://127.0.0.1:9999/webservice?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:9999], Pragma=[no-cache], User-Agent=[Java/1.8.0_121]}
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 4
+Address: http://127.0.0.1:9999/webservice?wsdl=HelloWorld.wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:9999], Pragma=[no-cache], User-Agent=[Java/1.8.0_121]}
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 5
+Address: http://127.0.0.1:9999/webservice?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:9999], User-Agent=[Java/1.8.0_121]}
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 6
+Address: http://127.0.0.1:9999/webservice?wsdl=HelloWorld.wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:9999], User-Agent=[Java/1.8.0_121]}
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 7
+Address: http://127.0.0.1:9999/webservice
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[text/xml, multipart/related], connection=[keep-alive], Content-Length=[203], content-type=[text/xml; charset=UTF-8], Host=[127.0.0.1:9999], SOAPAction=[""], User-Agent=[JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e]}
+Payload: <?xml version="1.0" ?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:sayHi xmlns:ns2="http://webService.liangjt.com/"><arg0>zhangsan</arg0></ns2:sayHi></S:Body></S:Envelope>
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 8
+Address: http://127.0.0.1:9999/webservice
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[text/xml, multipart/related], connection=[keep-alive], Content-Length=[190], content-type=[text/xml; charset=UTF-8], Host=[127.0.0.1:9999], SOAPAction=[""], User-Agent=[JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e]}
+Payload: <?xml version="1.0" ?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getAllCat xmlns:ns2="http://webService.liangjt.com/"></ns2:getAllCat></S:Body></S:Envelope>
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 9
+Address: http://127.0.0.1:9999/webservice?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:9999], User-Agent=[Java/1.8.0_121]}
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 10
+Address: http://127.0.0.1:9999/webservice?wsdl=HelloWorld.wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:9999], User-Agent=[Java/1.8.0_121]}
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 11
+Address: http://127.0.0.1:9999/webservice
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[text/xml, multipart/related], connection=[keep-alive], Content-Length=[203], content-type=[text/xml; charset=UTF-8], Host=[127.0.0.1:9999], SOAPAction=[""], User-Agent=[JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e]}
+Payload: <?xml version="1.0" ?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:sayHi xmlns:ns2="http://webService.liangjt.com/"><arg0>zhangsan</arg0></ns2:sayHi></S:Body></S:Envelope>
+--------------------------------------
+Inbound Message
+----------------------------
+ID: 12
+Address: http://127.0.0.1:9999/webservice
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[text/xml, multipart/related], connection=[keep-alive], Content-Length=[190], content-type=[text/xml; charset=UTF-8], Host=[127.0.0.1:9999], SOAPAction=[""], User-Agent=[JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e]}
+Payload: <?xml version="1.0" ?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getAllCat xmlns:ns2="http://webService.liangjt.com/"></ns2:getAllCat></S:Body></S:Envelope>
+--------------------------------------

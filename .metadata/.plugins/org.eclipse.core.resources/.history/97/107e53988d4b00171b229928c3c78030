@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.liangjt.auth;
+
+import org.apache.cxf.binding.soap.SoapMessage;
+import org.apache.cxf.interceptor.Fault;
+import org.apache.cxf.phase.AbstractPhaseInterceptor;
+
+/**
+ * Phase 阶段
+ * 通过PhaseInterceptor，可以指定拦截器在哪个阶段起作用
+ * @author Administrator
+ *
+ */
+public class AuthInInterceptor extends AbstractPhaseInterceptor<SoapMessage> {
+
+	@Override
+	public void handleMessage(SoapMessage message) throws Fault {
+		// TODO Auto-generated method stub
+
+	}
+
+}
