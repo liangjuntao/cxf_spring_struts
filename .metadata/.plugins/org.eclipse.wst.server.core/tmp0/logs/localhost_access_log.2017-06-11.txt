@@ -48,3 +48,4 @@
 127.0.0.1 - - [11/Jun/2017:01:42:47 +0800] "GET /cxf_spring/liangjt/webService?wsdl=HelloWorld.wsdl HTTP/1.1" 200 4385
 127.0.0.1 - - [11/Jun/2017:01:42:47 +0800] "POST /cxf_spring/liangjt/webService HTTP/1.1" 200 274
 127.0.0.1 - - [11/Jun/2017:01:42:47 +0800] "POST /cxf_spring/liangjt/webService HTTP/1.1" 200 867
+127.0.0.1 - - [11/Jun/2017:02:09:57 +0800] "GET / HTTP/1.1" 404 992
