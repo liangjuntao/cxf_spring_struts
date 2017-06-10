@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+D:\learening\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3632283283.index
+4072974268.index
+1631151038.index
+66515496.index
+1903011097.index
+1311328884.index

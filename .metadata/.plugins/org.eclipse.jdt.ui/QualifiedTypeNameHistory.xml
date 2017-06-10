@@ -18,4 +18,7 @@
 <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
 <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
 <fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+<fullyQualifiedTypeName name="com.liangjt.cxf.ws.util.MyXmlAdapter"/>
+<fullyQualifiedTypeName name="com.liangjt.service.Impl.UserServiceImp"/>
+<fullyQualifiedTypeName name="com.liangjt.service.UserService"/>
 </qualifiedTypeNameHistroy>

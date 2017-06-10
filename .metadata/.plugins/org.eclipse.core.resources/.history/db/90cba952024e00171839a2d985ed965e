@@ -1,0 +1,12 @@
+package com.liangjt.clientMain;
+
+import com.liangjt.webservice.impl.HelloWorld;
+
+public class ClientMain {
+
+	public static void main(String[] args) {
+		HelloWorld factory = new HelloWorld();
+		factory.getHelloWorldWsPort();
+	}
+
+}

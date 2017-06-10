@@ -20,4 +20,6 @@ auth\_ws\_server:基于interceptor\_ws\_server，去除cxf框架自带的拦截�
 auth\_ws\_client:基于interceptor\_ws\_client,去除cxf框架自带的拦截器，采用自定义拦截器拦截将要发出的soap消息，在soap Header头中添加账号和密码，实现客户端使用授权账号和密码访问。  
 
 
-
+**整合cxf和spring**  
+cxf_\spring:基于interceptor\_ws\_server：引入spring框架。主要是做了相关配置，实现了自动发布webService服务的作用。  
+call_\cxf_\spring：基于interceptor\_ws\_client，实现webService服务的调用。

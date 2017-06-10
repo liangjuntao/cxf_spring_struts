@@ -14,10 +14,6 @@ public class ClientMain {
 		
 		System.out.println(hw.sayHi("zhangsan"));
 		
-		StringCat sc = hw.getAllCat();
-		for(Entry en : sc.getEntries()){
-			System.out.println(en.getKey()+":"+en.getValue().getName());
-		}
 	}
 
 }

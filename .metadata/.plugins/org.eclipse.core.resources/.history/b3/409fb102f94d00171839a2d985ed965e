@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xmlns:context="http://www.springframework.org/schema/context" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	http://cxf.apache.org/jaxws 	
+	http://cxf.apache.org/schema/jaxws.xsd"
+	>
+	
+	<!-- web应用的类加载路径
+	a.web-inf/classes目录
+	b.web-inf/lib目录
+	  -->
+	<import resource="classpath:META-INF/cxf/cxf.xml" /> 
+  	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" /> 
+	
+
+	
+	<bean id="UserService" class="com.liangjt.service.Impl.UserServiceImp">
+	</bean>
+	
+	<!-- implementor:指定webservice服务的提供者。
+		a 直接给定服务器提供者的类名
+		b 设置为容器中的一个bean
+	 -->
+	<jaxws:endpoint  implementor="" address="" >	
+	</jaxws:endpoint> 
+	
+	
+	
+	
+	
+	
+</beans>
