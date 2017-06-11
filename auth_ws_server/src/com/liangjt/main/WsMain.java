@@ -1,15 +1,10 @@
 package com.liangjt.main;
 
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.xml.ws.Endpoint;
 
-import org.apache.cxf.interceptor.LoggingInInterceptor;
-import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.EndpointImpl;
-
 import com.liangjt.webService.Impl.HelloWorldWs;
 
 /**

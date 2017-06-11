@@ -1,0 +1,38 @@
+	<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <!-- 系统参数_Start -->
+    <!-- 运行模式：开发 -->
+    <constant name="struts.devMode" value="true" />
+    <!-- 是否动态加载变化的struts.xml -->
+    <constant name="struts.configuration.xml.reload" value="true" />
+    <!-- 浏览器缓存：禁用 -->
+    <constant name="struts.serve.static.browserCache" value="false" />
+    <!-- Web应用默认字符集 -->
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    <!-- Action请求后缀：action -->
+    <constant name="struts.action.extension" value="action" />
+    <!-- 动态方法调用：允许 -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <!-- 上传文件默认目录 -->
+    <constant name="struts.multipart.savaDir" value="file/upload" />
+    <!-- 上传文件大小限制 -->
+    <constant name="struts.multipart.maxSize" value="20971520" />
+    <!-- 系统参数_End -->
+    <package name="app" extends="struts-default">
+        <!-- 权限拦截器 <interceptors> <interceptor name="exam" class="com.datainfo.web.interceptor.AuthorityInterceptor"> 
+            <param name="includeMethods">login</param> </interceptor> <interceptor-stack 
+            name="my"> -->
+        <!-- 引用系统的拦截器栈 <interceptor-ref name="defaultStack"></interceptor-ref> 
+            <interceptor-ref name="exam"></interceptor-ref> </interceptor-stack> </interceptors> -->
+        <!-- 定义缺省的拦截器 <default-interceptor-ref name="my"></default-interceptor-ref> -->
+        <!-- 捕获Exception 显示 -->
+        <global-exception-mappings>
+            <exception-mapping result="error" exception="java.lang.Exception" />
+        </global-exception-mappings>
+    </package>
+    <!-- 加载其它模块的XML -->
+    <include file="com/huicent/web/xml/*.xml" />
+</struts>

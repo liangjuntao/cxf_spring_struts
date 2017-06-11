@@ -1,0 +1,11 @@
+package com.liangjt.app.action;
+
+import com.liangjt.webservice.impl.HelloWorld;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ListCatsAction extends ActionSupport {
+	
+	private HelloWorld hw;
+	
+	
+}

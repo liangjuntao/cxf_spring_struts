@@ -1,0 +1,29 @@
+package com.liangjt.app.action;
+
+import java.util.List;
+
+import com.liangjt.webservice.Cat;
+import com.liangjt.webservice.HelloWorld;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ListCatsAction extends ActionSupport {
+	// 此时的action依赖的是远程webService代理对象
+	private HelloWorld hw;
+
+	public void setHw(HelloWorld hw) {
+		this.hw = hw;
+	}
+
+	Map<String,Cat> cats;
+
+	public void setCats(List<Cat> cats) {
+		this.cats = cats;
+	}
+	
+	@Override
+	public String execute() throws Exception {
+		setCats(hw.getAllCat());
+		return super.execute();
+	}
+
+}

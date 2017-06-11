@@ -20,6 +20,13 @@ import com.liangjt.webService.HelloWorld;
  */
 @WebService(endpointInterface = "com.liangjt.webService.HelloWorld", serviceName = "HelloWorld")
 public class HelloWorldWs implements HelloWorld {
+	
+	
+	private UserService us ;
+	//采用set注入
+	public void setUs(UserService us){
+		this.us = us;
+	}
 
 	@Override
 	public String sayHi(String name) {
@@ -30,14 +37,14 @@ public class HelloWorldWs implements HelloWorld {
 	public List<Cat> getCatByUser(User user) {
 		//在实际项目中，web service组件不会去实现业务功能
 		//它只是调用业务逻辑组件的方法来暴露webService接口
-		UserService us = new UserServiceImp();
+		//UserService us = new UserServiceImp();
 		return us.getCatByUser(user);
 	}
 	
 	
 	@Override
 	public Map<String, Cat> getAllCat() {
-		UserService us = new UserServiceImp();
+		//UserService us = new UserServiceImp();
 		return us.getAllCat();
 	}
 	

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.cxf.frontend.ClientProxy"/>
-<fullyQualifiedTypeName name="org.apache.cxf.endpoint.Client"/>
-<fullyQualifiedTypeName name="org.apache.cxf.interceptor.LoggingInInterceptor"/>
-<fullyQualifiedTypeName name="org.apache.cxf.interceptor.LoggingOutInterceptor"/>
 <fullyQualifiedTypeName name="org.w3c.dom.NodeList"/>
 <fullyQualifiedTypeName name="org.apache.cxf.interceptor.Fault"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="com.liangjt.auth.AuthInInterceptor"/>
 <fullyQualifiedTypeName name="org.apache.cxf.phase.AbstractPhaseInterceptor"/>
-<fullyQualifiedTypeName name="org.apache.cxf.binding.soap.SoapMessage"/>
 <fullyQualifiedTypeName name="org.apache.cxf.phase.Phase"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.apache.cxf.headers.Header"/>
 <fullyQualifiedTypeName name="org.apache.ws.commons.schema.utils.DOMUtil"/>
 <fullyQualifiedTypeName name="org.apache.cxf.helpers.DOMUtils"/>
@@ -21,4 +15,23 @@
 <fullyQualifiedTypeName name="com.liangjt.cxf.ws.util.MyXmlAdapter"/>
 <fullyQualifiedTypeName name="com.liangjt.service.Impl.UserServiceImp"/>
 <fullyQualifiedTypeName name="com.liangjt.service.UserService"/>
+<fullyQualifiedTypeName name="org.apache.cxf.binding.soap.SoapMessage"/>
+<fullyQualifiedTypeName name="org.apache.cxf.frontend.ClientProxy"/>
+<fullyQualifiedTypeName name="org.apache.cxf.interceptor.LoggingInInterceptor"/>
+<fullyQualifiedTypeName name="org.apache.cxf.interceptor.LoggingOutInterceptor"/>
+<fullyQualifiedTypeName name="org.apache.cxf.jaxrs.client.Client"/>
+<fullyQualifiedTypeName name="org.apache.cxf.endpoint.Client"/>
+<fullyQualifiedTypeName name="org.apache.cxf.endpoint.EndpointImpl"/>
+<fullyQualifiedTypeName name="org.apache.cxf.endpoint.Endpoint"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.liangjt.webservice.Cat"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.liangjt.webservice.StringCat"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.liangjt.webservice.Entry"/>
+<fullyQualifiedTypeName name="org.apache.cxf.jaxws.EndpointImpl"/>
+<fullyQualifiedTypeName name="com.liangjt.webservice.impl.HelloWorld"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=interceptor_ws_server/D:\/apache-cxf-2.7.18\/lib\/neethi-3.0.3.jar&lt;org.apache.neethi.builders(AssertionBuilder.class[AssertionBuilder" modifiers="1537" timestamp="1439427666000"/>
-<typeInfo handle="=interceptor_ws_client/D:\/apache-cxf-2.7.18\/lib\/geronimo-servlet_3.0_spec-1.0.jar&lt;javax.servlet(ServletInputStream.class[ServletInputStream" modifiers="1025" timestamp="1439427652000"/>
+<typeInfo handle="=interceptor_ws_server/D:\/apache-cxf-2.7.18\/lib\/neethi-3.0.3.jar&lt;org.apache.neethi.builders(AssertionBuilder.class[AssertionBuilder" modifiers="1537" timestamp="1449800200000"/>
+<typeInfo handle="=cxf_spring/D:\/learening\/cxf_spring\/WebContent\/WEB-INF\/lib\/cxf-core-3.1.6.jar&lt;org.apache.cxf.interceptor(LoggingInInterceptor.class[LoggingInInterceptor" modifiers="33" timestamp="1497101342641"/>
+<typeInfo handle="=cxf_spring/D:\/learening\/cxf_spring\/WebContent\/WEB-INF\/lib\/spring-web-4.2.6.RELEASE.jar&lt;org.springframework.web.context(ContextLoaderListener.class[ContextLoaderListener" modifiers="33" timestamp="1497101342860"/>
+<typeInfo handle="=auth_ws_client/D:\/apache-cxf-2.7.18\/lib\/cxf-rt-frontend-jaxws-3.1.6.jar&lt;org.apache.cxf.jaxws(EndpointImpl.class[EndpointImpl" modifiers="33" timestamp="1458711462000"/>
 </typeInfoHistroy>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	http://cxf.apache.org/jaxws 	
+	http://cxf.apache.org/schemas/jaxws.xsd">
+
+	<!-- scema这个信息要添加正确 xmlns:jaxws="http://cxf.apache.org/jaxws" http://cxf.apache.org/jaxws 
+		http://cxf.apache.org/schemas/jaxws.xsd -->
+
+	<!-- web应用的类加载路径 a.web-inf/classes目录 b.web-inf/lib目录 -->
+	<import resource="classpath:META-INF/cxf/cxf.xml" />
+
+	<!-- 
+		Action依赖的是远程依赖的代理
+		为了保证webservice代理对象自动装配给Action
+		需要保证这个id属性值与Action中Setter方法的方法名有对应关系
+	 -->
+	 
+	<!-- 
+		id是：set注入默认是byName的，所以这个名字不可以乱写；
+		serviceClass是接口，不是实现类
+		 
+	-->
+	
+	<jaxws:client 
+		id="hw" 
+		serviceClass="com.liangjt.webservice。impl.HelloWorld" 
+		address="http://127.0.0.1:9999/webservice">
+		<jaxws:outInterceptors>
+			<bean class="com.liangjt.auth.AddHeaderInceptor">
+				<constructor-arg value="1111"></constructor-arg>
+				<constructor-arg value="1111"></constructor-arg>
+			</bean>
+		</jaxws:outInterceptors>
+	</jaxws:client>
+
+</beans>
